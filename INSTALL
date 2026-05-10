@@ -34,7 +34,8 @@ BUILDING
 
  For OpenRC-based systems, use the supplied OpenRC init script and the
  hourly cronjob for periodic resyncs, since timer-driven alternatives are
- not available by default.
+ not available by default. WARNING: you may have to move the cron script 
+ to a different location depending on which cron service you are using 
 
 USE A DISTRO PROVIDED PACKAGE
  ARCH LINUX
